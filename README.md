@@ -87,7 +87,7 @@ A new account starts at `0`.
 
 ## Transfers
 
-`POST /api/transactions` requires a logged-in user.
+`POST /api/transactions` requires a logged in user.
 
 ```json
 {
@@ -121,4 +121,4 @@ A new account starts at `0`.
 | `account` | User, status (`ACTIVE`, `FROZEN`, `CLOSED`), currency (default `INR`). |
 | `transaction` | Source, destination, amount, status (`PENDING`, `COMPLETED`, `FAILED`, `REVERSED`), unique `idempotencyKey`. |
 | `ledger` | Account, amount, transaction, and type (`CREDIT` or `DEBIT`). |
-| `blacklist` | Logged-out tokens, unique, with a three-day TTL. |
+| `blacklist` | Logged out tokens, unique, with a three day TTL. |
