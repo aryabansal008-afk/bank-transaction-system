@@ -1,6 +1,6 @@
 # Backend Ledger
 
-Express API that records money movement as an append only ledger. A transfer writes one debit and one credit. Account balance is not stored, it is the sum of credits minus the sum of debits for that account.
+Express API that records money movement as an append only ledger. A transfer  one debit and one credit. Account balance is not stored, it is the sum of credits minus the sum of debits for that account.
 
 ## Stack
 
